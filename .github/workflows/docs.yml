@@ -9,6 +9,7 @@ jobs:
     release:
         name: build docs
         runs-on: ubuntu-latest
+        environment: zensical
 
         steps:
             # 检出 Git 仓库
